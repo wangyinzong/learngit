@@ -1,0 +1,229 @@
+<html class="">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}
+
+    {% endblock %}</title>
+    <meta name="keywords" content="改编">
+    <meta name="description"
+          content="内容">
+    <meta name="robots" content="all">
+    <meta name="googlebot" content="all">
+    <meta name="baiduspider" content="all">
+    <meta name="updatetime" content="2019-06-27,12:27:49">
+    <meta http-equiv="mobile-agent" content="format=wml; url=https://m.qidian.com">
+    <meta http-equiv="mobile-agent" content="format=xhtml; url=https://m.qidian.com">
+    <meta http-equiv="mobile-agent" content="format=html5; url=https://m.qidian.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <script src="//pingjs.qq.com/h5/stats.js?v2.0.2" name="MTAH5" sid="500451537"></script>
+    <script>document.domain = 'qidian.com';</script>
+    <script src="{% static 'js/doPost.js' %}"></script>
+    <script>var speedTimer = [],
+        speedZero = new Date().getTime();</script>
+    <script>//遇到cookie tf=1的话留在本站，否则跳转移动站
+    if (getCookie('tf') != 1) {
+        //判断是以下设备后跳转到m站
+        if (navigator.userAgent.match(/(iPhone|iPod|Android)/i)) {
+            location.href = "//m.qidian.com"
+        }
+    } else {
+        // M站设置了一年，这里fixed
+        setCookie('tf', 1, 'qidian.com', '/', 0);
+    }
+    // start 防劫持
+    //设置cookie
+    function setCookie(name, value, domain, path, expires) {
+        if (expires) {
+            expires = new Date(+new Date() + expires);
+        }
+        var tempcookie = name + '=' + escape(value) +
+            ((expires) ? '; expires=' + expires.toGMTString() : '') +
+            ((path) ? '; path=' + path : '') +
+            ((domain) ? '; domain=' + domain : '');
+        //Ensure the cookie's size is under the limitation
+        if (tempcookie.length < 4096) {
+            document.cookie = tempcookie;
+        }
+    }
+
+    //获取cookie
+    function getCookie(name) {
+        var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+        if (arr = document.cookie.match(reg))
+            return (arr[2]);
+        else
+            return null;
+    }
+
+    //创建并发送请求
+    function createSender(url) {
+        var img = new Image();
+        img.onload = img.onerror = function () {
+            img = null;
+        };
+        img.src = url;
+    };</script>
+    <link data-ignore="true" rel="Bookmark" type="image/x-icon" href="//qidian.gtimg.com/qd/favicon/qd_icon.c443c.ico">
+    <link rel="stylesheet" data-ignore="true"
+          href="//qidian.gtimg.com/c/=/qd/css/reset.ddecf.css,/qd/css/global.d41d8.css,/qd/css/font.6c094.css,/qd/css/module.7c917.css,/qd/css/channel.2a5f6.css,/qd/css/layout.5de0f.css,/qd/css/qd_popup.7e65f.css,/qd/css/footer.5ccc0.css,/qd/css/lbfUI/css/Autocomplete.cab82.css">
+    <link charset="utf-8" rel="stylesheet" href="https://qidian.gtimg.com/qd/css/lbfUI/css/Autocomplete.css">
+    {% csrf_token %}
+     {% block head %}
+
+    {% endblock %}
+
+</head>
+<body data-dynamic="false" style="zoom: 1;">
+<div class="wrap">
+    <div id="pin-nav" class="pin-nav-wrap need-search "  data-l1="40">
+        <div class="box-center cf">
+            <div class="nav-list site-nav fl">
+
+                <ul>
+                    <li class="site"><a href="{% url 'news:index' %}" style="color: white">主页</a></li>
+                    <li><a href="{% url 'news:category' %}?name=xuanhuan" >玄幻</a></li>
+                    <li><a href="{% url 'news:category' %}?name=dushi">都市</a></li>
+                    <li><a href="{% url 'news:category' %}?name=xianxia">仙侠</a></li>
+                    <li><a href="{% url 'news:category' %}?name=kehuan" >科幻</a></li>
+                    <li><a href="{% url 'news:category' %}?name=youxi">游戏</a></li>
+                    <li><a href="{% url 'news:category' %}?name=lishi">历史</a></li>
+                    <li><a href="{% url 'news:ranking' %}">排行</a></li>
+                </ul>
+            </div>
+            <div class="nav-list min-user fr">
+                <ul>
+                    <li id="min-search">
+                        <form id="formUrl" action="{% url 'news:category' %}" method="post">
+                            {% csrf_token %}<label
+                                id="pin-search" for="topSearchSubmit" data-eid="qd_A62"><em
+                                class="iconfont"></em></label><input id="pin-input" class="pin-input hide" type="text"
+                                                                      name="kw" placeholder="请输入搜索内容"> <input
+                                class="submit-input" type="submit" id="topSearchSubmit" data-eid="qd_A62">
+                        </form>
+                    </li>
+                    <li class="line"></li>
+                    {% if front_user %}
+                        <li class="sign-out"><a>欢迎您,{{ front_user.username }}</a> </li>
+                        <li class="sign-in"><a href="{% url 'cms:my_news' %}" style="color: #c0c0c0;">个人中心</a><div class="dropdown">
+                    {% else %}
+                        <li class="sign-out"><a id="" href="{% url 'news:loginregister' %}">登录&注册</a> </li>
+                        <li class="sign-in hidden"><a href="{% url 'cms:my_news' %}" style="color: #c0c0c0;">个人中心</a><div class="dropdown">
+                    {% endif %}
+                            <a href="{% url 'cms:log_out' %}" data-eid="qd_A70">退出登录</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+{% block content %}
+
+{% endblock %}
+</div>
+<script>// 全局的通用数据都放g_data变量里h
+var g_data = {};
+// 环境变量，会按照环境选择性打log
+g_data.envType = 'pro';
+// 用作统计PV
+g_data.pageId = 'qd_P_xuanhuan';
+// 随机广告
+g_data.adBanner = {
+    adRightBottom: [{
+        "title": "唐门六道3D",
+        "adImgUrl": "//bossaudioandcomic-1252317822.file.myqcloud.com/activity/document/21493c38dc588760cf714a12c14c0349.jpg",
+        "adCategoryName": "广告",
+        "colorType": 0,
+        "type": 1,
+        "isAdv": 1,
+        "adJumpUrl": "http://cpgame.qd.game.qidian.com/Home/Index/directLogin/name/tmld3d/way/1?qd_game_key=tmld216x100&qd_dd_p1=762"
+    }],
+    adBanner1: [{
+        "title": "无上道",
+        "adImgUrl": "//bossaudioandcomic-1252317822.file.myqcloud.com/activity/document/c7403f443f68caeeaed3bbda2019c3e0.jpg",
+        "adCategoryName": "广告",
+        "colorType": 0,
+        "type": 1,
+        "isAdv": 1,
+        "adJumpUrl": "http://cpgame.qd.game.qidian.com/Home/Index/directLogin/name/wsd/way/1?qd_game_key=wsd1200x100&qd_dd_p1=29965"
+    }, {
+        "title": "血盟荣耀",
+        "adImgUrl": "//bossaudioandcomic-1252317822.file.myqcloud.com/activity/document/8fdaecb14f3f183d159a8613903526e4.jpg",
+        "adCategoryName": "广告",
+        "colorType": 0,
+        "type": 1,
+        "isAdv": 1,
+        "adJumpUrl": "http://cpgame.qd.game.qidian.com/Home/Index/directLogin/name/xmry/way/1?qd_game_key=xmry1200x100s&qd_dd_p1=948"
+    }]
+}
+// 当前页面路由
+g_data.domain = '//www.qidian.com/xuanhuan';
+// 域名环境变量
+g_data.domainSearch = 'www.qidian.com/search';</script>
+<script data-ignore="true" src="//qidian.gtimg.com/lbf/1.1.0/LBF.js?max_age=31536000"></script>
+<script>// LBF 配置
+LBF.config({
+    "paths": {
+        "site": "//qidian.gtimg.com/qd/js",
+        "qd": "//qidian.gtimg.com/qd",
+        "common": "//qidian.gtimg.com/common/1.0.0"
+    }, "vars": {"theme": "//qidian.gtimg.com/qd/css"}, "combo": true, "debug": false
+});
+LBF.use(['lib.jQuery'], function ($) {
+    window.$ = $;
+});</script>
+<script>LBF.use(['monitor.SpeedReport', 'qd/js/component/login.a4de6.js', 'qd/js/channel/index.ea95b.js'], function (SpeedReport, Login, Index) {
+    // 页面逻辑入口
+    if (Login) {
+        Login.init().always(function () {
+            Index && typeof Index === 'function' && new Index();
+        })
+    }
+    if (219 && 219 != '') {
+        $(window).on('load.speedReport', function () {
+            // speedTimer[onload]
+            speedTimer.push(new Date().getTime());
+            var f1 = 7718, // china reading limited's ID
+                f2 = 219, // site ID
+                f3 = 20; // page ID
+            // chrome & IE9 Performance API
+            SpeedReport.reportPerformance({
+                flag1: f1,
+                flag2: f2,
+                flag3IE: f3,
+                flag3Chrome: f3,
+                rate: 0.1,
+                url: '//isdspeed.qidian.com/cgi-bin/r.cgi'
+            });
+            // common speedTimer:['dom ready', 'onload']
+            var speedReport = SpeedReport.create({
+                flag1: f1,
+                flag2: f2,
+                flag3: f3,
+                start: speedZero,
+                rate: 0.1,
+                url: '//isdspeed.qidian.com/cgi-bin/r.cgi'
+            });
+            // chrome & IE9 Performance API range 1~19, common speedTimer use 20+
+            for (var i = 0; i < speedTimer.length; i++) {
+                speedReport.add(speedTimer[i], i + 20)
+            }
+            // http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=7718&flag2=224&flag3=1&1=38&2=38&…
+            speedReport.send();
+        })
+    }
+});
+speedTimer.push(new Date().getTime());</script>
+<script>var _mtac = {};
+(function () {
+    var mta = document.createElement("script");
+    mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.2";
+    mta.setAttribute("name", "MTAH5");
+    mta.setAttribute("sid", "500451537");
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(mta, s);
+})();</script>
+<div class="lbf-autocomplete-suggestions"
+     style="position: absolute; display: none; max-height: 384px; z-index: 9999;"></div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{% extends 'cms/tablebase.html' %}
+{% if front_user %}
+
+
+{% block body %}
+    <div class="panel-heading">
+
+        <h3 class="panel-title">我的收藏</h3>
+
+    </div>
+
+    <div class="panel-body">
+
+        <table class="table">
+    <thead>
+      <tr>
+          <th>书名</th>
+          <th>作者</th>
+          <th>更新时间</th>
+
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+      {% for book in books %}
+              <td><a href="{% url 'cms:book_detail'  book_id=book.0 %}">{{ book.1  }}</a></td>
+              <td><a href="{% url 'cms:author_detail'%}?author_id={{ book.3.id }}">{{ book.3.per_name}}</a></td>
+              <td>{{book.2}}</td>
+          <td>
+           <form action="{% url 'cms:collection_del' %}" method="post">
+            {% csrf_token %}
+            <input type="hidden" name="book_id" value="{{ book.0 }}">
+            <input type="submit"  value="取消收藏">
+            </form>
+          </td>
+      </tr>
+
+         {% endfor %}
+    </tbody>
+        </table>
+
+    </div>
+
+    </div>
+{% endblock %}
+    {% else %}
+    <li class="active"><a href="{% url 'news:loginregister' %}">您的登录时间过期，请点击重新登录登录</a></li>
+{% endif %}

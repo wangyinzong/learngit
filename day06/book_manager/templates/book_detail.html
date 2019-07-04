@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}
+    详情
+{% endblock %}
+{% block content %}
+    <p>书名:{{ book.1 }}</p>
+    <p>作者：{{ book.2 }}</p>
+    <form action="{% url 'delete_book' %}" method="post">
+        {% csrf_token %}
+        <input type="hidden" name="book_id" value="{{ book.0 }}">
+        <input type="submit" value="提交删除">
+    </form>
+{% endblock %}

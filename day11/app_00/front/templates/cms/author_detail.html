@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作者</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin-top: 65px;
+
+        }
+
+        .col-md-2 {
+
+            background-color: #ccc;
+
+            /*?*/
+
+            height: 600px;
+
+        }
+
+        #left-content {
+
+            margin-top: 20px;
+
+        }
+
+        .list-group {
+
+            padding-left: 0;
+
+        }
+
+        #panel-group {
+
+            margin-top: 20px;
+
+        }
+
+        #onebtn {
+
+            margin: 10px 0;
+
+        }
+
+        #btngroup button {
+
+            width: 100%;
+
+        }
+
+        .progress {
+
+            margin-top: 15px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+		<div class="col-md-10">
+  			<div id="panel-group">
+                <!-- 3 -->
+  				<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{ author.pen_name }}的信息</h3>
+    </div>
+
+    <div class="panel-body">
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th>姓名</th>
+                <th>笔名</th>
+                <th>头像</th>
+                <th>作品</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>{{ author.true_name }}</td>
+                <td>{{ author.pen_name }}</td>
+                <td><img src="{{ MEDIA_URL }}{{ author.image }}" alt="" style="width:40px ;height: 60px "></td>
+                {% for book in books %}
+                    <td style="float: left">{{ book.title }}</td>
+                {% endfor %}
+
+            </tr>
+            </tbody>
+        </table>
+    </div>
+                </div>
+            </div>
+        </div>
+                <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

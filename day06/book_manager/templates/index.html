@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}
+    图书管理首页
+{% endblock %}
+{% block content %}
+    <table>
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>书名</th>
+                <th>作者</th>
+            </tr>
+        </thead>
+    <tbody>
+    <tr>
+        {% for book in books %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td><a href="#">{{ book.1 }}</a></td>
+                <td>{{ book.2 }}</td>
+            </tr>
+        {% endfor %}
+
+    </tr>
+    </tbody>
+    </table>
+{% endblock %}

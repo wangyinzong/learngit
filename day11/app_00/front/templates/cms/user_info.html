@@ -1,0 +1,28 @@
+{% extends 'cms/tablebase.html' %}
+{% block body %}
+    <div class="panel-heading">
+
+        <h3 class="panel-title">个人信息</h3>
+
+    </div>
+
+    <div class="panel-body">
+
+        <table class="table">
+            <tbody>
+            <tr>
+                <td>用户名:{{ front_user.username }}</td>
+            </tr>
+            <tr>
+                <td>电话:{{ front_user.telephone }}</td>
+            </tr>
+            <tr>
+                <td>邮箱:{{ front_user.email }}</td>
+            </tr>
+            <td>
+            </td>
+            </tbody>
+        </table>
+    </div>
+    </div>
+{% endblock %}

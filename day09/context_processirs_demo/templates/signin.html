@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block title %}
+    登录
+{% endblock %}
+{% block head %}
+    <meta name="csrf_token" content="csrf_token">
+{% endblock %}
+{% block body %}
+    <form action="" method="post">
+        {% csrf_token %}
+        <table>
+            <tbody>
+            <tr>
+                <td>用户名：</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input type="text" name="password"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="submit" value="立即登陆"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <ul>
+                        {% for message in messages %}
+                            {% if message.tags == 'info' %}
+                                <li style="color: red">{{ message }}</li>
+                            {% endif %}
+                        {% endfor %}
+
+                    </ul>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+    </form>
+{% endblock %}

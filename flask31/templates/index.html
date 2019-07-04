@@ -1,0 +1,55 @@
+{#{% from "macros/macros.html" import forms as bixin %}#}
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Title</title>#}
+{##}
+{#</head>#}
+{#<body>#}
+{#<h1>你是好人</h1>#}
+{#    <p>{{ username }}</p>#}
+{#    <p>{{ age }}</p>#}
+{#    <p>{{ country | upper}}</p>#}
+{#    <p>{{ childrens.name }}</p>#}
+{#    <p>{{ childrens['height'] }}</p>#}
+{#    <p>{{ scripts | safe}}</p>#}
+{#{% if age>= 18 %}#}
+{#    <p>煞笔</p>#}
+{#    {% else %}#}
+{#    <p>狗屎</p>#}
+{#{% endif %}#}
+{#{% include 'common/header.html' %}#}
+{#<div class="contents">#}
+{#    <table>#}
+{#        <tr>#}
+{#            <td>用户名</td>#}
+{#            <td>{{ bixin("username", placeholder="请输入名字") }}</td>#}
+{#        </tr>#}
+{#        <tr>#}
+{#            <td>密码</td>#}
+{#            <td>{{ bixin("password", type="password") }}</td>#}
+{#        </tr>#}
+{#        <tr>#}
+{#            <td></td>#}
+{#            <td>{{ bixin(type="submit" ,value="提交") }}</td>#}
+{#        </tr>#}
+{#    </table>#}
+{#</div>#}
+{#{% include 'common/footer.html' %}#}
+{#</body>#}
+{#</html>#}
+{#{% extends 'common/base.html' %}#}
+{#{% block title %}#}
+{#首页#}
+{#{% endblock %}#}
+{#{% block content %}#}
+{#<p style="background: pink">这是一首简单的小情歌</p>#}
+{#{% endblock %}#}
+{% extends 'common/base.html' %}
+{% block title %}
+首页
+{% endblock %}
+{% block page_content %}
+这是日日详情
+{% endblock %}

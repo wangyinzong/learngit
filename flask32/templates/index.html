@@ -1,0 +1,22 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>登录</title>#}
+{#</head>#}
+{#<body>#}
+{#<form action="{{ url_for('index') }}" method="post">#}
+{#    用户名：<input type="text" name="username">#}
+{#    密码：<input type="password" name="password">#}
+{#    <input type="submit" value="立即提交">#}
+{#    </form>#}
+{#</body>#}
+{#</html>#}
+{# 继承bootstrap #}
+{% extends 'bootstrap/base.html' %}
+{# 导入渲染工具 #}
+{% import 'bootstrap/wtf.html'as wtf %}
+{# 渲染表单 #}
+{% block content %}
+    {{ wtf.quick_form(form) }}
+{% endblock %}

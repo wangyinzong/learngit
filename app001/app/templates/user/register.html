@@ -1,0 +1,12 @@
+{% extends 'common/base.html' %}
+
+{% block title %}
+注册页面
+{% endblock %}
+
+{% block page_content %}
+    <h2>欢迎注册</h2>
+    {{ wtf.quick_form(form) }}
+    <a class="navbar-brand" href="{{ url_for("main.index") }}" style="color: black">退出注册</a>
+{% endblock %}
+

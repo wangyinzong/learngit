@@ -1,0 +1,410 @@
+<div class="all-book-list">
+
+        <div class="book-img-text">
+            <ul class="all-img-list cf">
+
+                <li data-rid="1">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/3439785" target="_blank" data-eid="qd_B57" data-bid="3439785"><img src="//bookcover.yuewen.com/qdbimg/349573/3439785/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/3439785" target="_blank" data-eid="qd_B58" data-bid="3439785">修真四万年</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/4380856" target="_blank" data-eid="qd_B59">卧牛真人</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="25" data-typeid="9">未来世界</a><em>|</em><span>完结</span>
+
+                    </p>
+                    <p class="intro">
+                        “倘若这宇宙，真是一片残酷血腥的黑暗森林，我们修真者，也会燃烧自己的生命，绽放出微弱的火花！”“哪怕这火花再微弱，再短暂，再渺小，可是只要我们源源不断，前赴后继，终有一日，火花会点燃杂草，杂草会燎到灌
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡚𘡗𘡒𘡗𘡝𘡚𘡘</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="2">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1009243008" target="_blank" data-eid="qd_B57" data-bid="1009243008"><img src="//bookcover.yuewen.com/qdbimg/349573/1009243008/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1009243008" target="_blank" data-eid="qd_B58" data-bid="1009243008">电影的世界</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/2793544" target="_blank" data-eid="qd_B59">有梦之人</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>连载</span>
+
+                    </p>
+                    <p class="intro">
+                        在电影的世界里唯有不断地变强，才能主宰自己的命运。“当人们看到你成功的光芒，便会忘记你手段的黑暗。”徐一凡如是地说。正版订阅群：636729383
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡜𘡚𘡗𘡝𘡘𘡚</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="3">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/3242304" target="_blank" data-eid="qd_B57" data-bid="3242304"><img src="//bookcover.yuewen.com/qdbimg/349573/3242304/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/3242304" target="_blank" data-eid="qd_B58" data-bid="3242304">异常生物见闻录</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/4362948" target="_blank" data-eid="qd_B59">远瞳</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>完结</span>
+
+                        <em>|</em><a class="name" href="//www.qidian.com/2cy" target="_blank">轻小说</a>
+
+                    </p>
+                    <p class="intro">
+                        郝仁，人如其名，是个好人，理想是平平安安过一辈子，当个穷不死但也发不了财的小房东——起码在他家里住进去一堆神经病生物之前是这样。一栋偏僻陈旧的大屋，一堆不怎么正常的人外生物，还有一份来自“神明”的劳动
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡛𘡜𘡛𘡝𘡗𘡚</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="4">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/3542798" target="_blank" data-eid="qd_B57" data-bid="3542798"><img src="//bookcover.yuewen.com/qdbimg/349573/3542798/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/3542798" target="_blank" data-eid="qd_B58" data-bid="3542798">幻想世界大穿越</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/4657497" target="_blank" data-eid="qd_B59">辰一十一</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>连载</span>
+
+                    </p>
+                    <p class="intro">
+                        当幻想成为现实，天朝少年能否踏上成神之路？拥有穿越异能的陈昂，穿越在幻想世界里。在《永无止境》的世界里，获得超人的智慧，在《超体》的世界里，窥视成神的奥秘，从《笑傲江湖》开始，修行内功，进化自己，由《
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡙𘡔𘡕𘡝𘡕𘡙</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="5">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1010426071" target="_blank" data-eid="qd_B57" data-bid="1010426071"><img src="//bookcover.yuewen.com/qdbimg/349573/1010426071/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1010426071" target="_blank" data-eid="qd_B58" data-bid="1010426071">诸界末日在线</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/10438082" target="_blank" data-eid="qd_B59">烟火成城</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>连载</span>
+
+                        <em>|</em><a class="name" href="//www.qidian.com/2cy" target="_blank">轻小说</a>
+
+                    </p>
+                    <p class="intro">
+                        诸界末日降临，魔王的秩序收割着众生性命，在这绝望的黑暗之中，有一人挣脱时空，回到世界崩毁之前，决心改变曾经的命运。但随着时间的推移，他渐渐发现末日并不是那么简单……（书友群：662816185；V群8
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡙𘡒𘡜𘡝𘡖𘡖</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="6">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1009272185" target="_blank" data-eid="qd_B57" data-bid="1009272185"><img src="//bookcover.yuewen.com/qdbimg/349573/1009272185/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1009272185" target="_blank" data-eid="qd_B58" data-bid="1009272185">我的小人国</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/11918873" target="_blank" data-eid="qd_B59">青衫小白</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>连载</span>
+
+                        <em>|</em><a class="name" href="//www.qidian.com/2cy" target="_blank">轻小说</a>
+
+                    </p>
+                    <p class="intro">
+                        简介：有了一个小人国的萧羽，仗着体型和科技装备在小人国作威作福之余。忽然发现，靠着小人国世界奇物和超凡知识的自己，已然把现实世界带向了歪路……总结：这就是个女朋友哪里有小人国好玩的故事。ps:现实位面
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡙𘡛𘡛𘡝𘡕𘡚</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="7">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1010582019" target="_blank" data-eid="qd_B57" data-bid="1010582019"><img src="//bookcover.yuewen.com/qdbimg/349573/1010582019/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1010582019" target="_blank" data-eid="qd_B58" data-bid="1010582019">科技图书馆</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/6209478" target="_blank" data-eid="qd_B59">孤胆蚂蚁</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="250" data-typeid="9">超级科技</a><em>|</em><span>连载</span>
+
+                    </p>
+                    <p class="intro">
+                        科技图书馆：科学的至高境，就是神学；长生不老，飞天遁地，呼风唤雨，移山填海。这些神话传说，科学是可以实现的。想拿这些技术，必须拥有科技图书馆最高权限。一次意外的救人，让陈默收获了爱情，也获得收藏着无尽
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡚𘡒𘡜𘡝𘡕𘡜</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="8">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1006853204" target="_blank" data-eid="qd_B57" data-bid="1006853204"><img src="//bookcover.yuewen.com/qdbimg/349573/1006853204/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1006853204" target="_blank" data-eid="qd_B58" data-bid="1006853204">文化入侵异世界</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/3112022" target="_blank" data-eid="qd_B59">姐姐的新娘</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>完结</span>
+
+                        <em>|</em><a class="name" href="//www.qidian.com/2cy" target="_blank">轻小说</a>
+
+                    </p>
+                    <p class="intro">
+                        一群巨龙搬着小板凳日夜追看《权力游戏》。精灵大德鲁伊们因为《忠犬八公的故事》而潸然泪下。人类与矮人在《炉石传说》酒馆中为一张传说卡牌而大大出手。甚至就连神明也亲自来到凡间催更小说《福尔摩斯探案集》的连
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡜𘡛𘡙𘡝𘡜𘡜</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="9">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1010911953" target="_blank" data-eid="qd_B57" data-bid="1010911953"><img src="//bookcover.yuewen.com/qdbimg/349573/1010911953/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1010911953" target="_blank" data-eid="qd_B58" data-bid="1010911953">环城术士</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/52039" target="_blank" data-eid="qd_B59">黑袍雷斯林</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>连载</span>
+
+                        <em>|</em><a class="name" href="//www.qidian.com/2cy" target="_blank">轻小说</a>
+
+                    </p>
+                    <p class="intro">
+                        逃离现实的沈言，闯进了一个瑰丽的奇幻世界。
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡜𘡗𘡘𘡝𘡛𘡚</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="10">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1009999768" target="_blank" data-eid="qd_B57" data-bid="1009999768"><img src="//bookcover.yuewen.com/qdbimg/349573/1009999768/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1009999768" target="_blank" data-eid="qd_B58" data-bid="1009999768">诸天万界反派聊天群</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/400380981" target="_blank" data-eid="qd_B59">不要尬舞</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>完结</span>
+
+                        <em>|</em><a class="name" href="//www.qidian.com/2cy" target="_blank">轻小说</a>
+
+                    </p>
+                    <p class="intro">
+                        这个穿越画风有些不对？开局就是地狱难度是个什么鬼？还好自带一个金手指。从此以后踏上了诸天万界各大反派人生导师的不归路！露出一脸和善微笑的雄霸正指挥着风云怒肛帝释天、海贼世界路飞将成为海军大将作为自己的
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡜𘡛𘡛𘡝𘡖𘡘</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="11">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1010808000" target="_blank" data-eid="qd_B57" data-bid="1010808000"><img src="//bookcover.yuewen.com/qdbimg/349573/1010808000/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1010808000" target="_blank" data-eid="qd_B58" data-bid="1010808000">超级丧尸工厂</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/4362918" target="_blank" data-eid="qd_B59">雨水</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>连载</span>
+
+                    </p>
+                    <p class="intro">
+                        意外获得一家丧尸工厂，工厂的产品有些骇人听闻。产品琳琅满目：丧尸、舔食者、地狱犬、暴君、追击者、暴君T002型、肉盾、裁决者、母体……将丧尸、地狱犬、舔食者、暴君……等等制造出来，指挥它们，为你攻城掠
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡜𘡕𘡛𘡝𘡛𘡘</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="12">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1010606730" target="_blank" data-eid="qd_B57" data-bid="1010606730"><img src="//bookcover.yuewen.com/qdbimg/349573/1010606730/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1010606730" target="_blank" data-eid="qd_B58" data-bid="1010606730">从超神学院开始的穿越日常</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/7607222" target="_blank" data-eid="qd_B59">我步入地狱</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>连载</span>
+
+                    </p>
+                    <p class="intro">
+                        （新书，某国漫的超神学院已经发布）许易穿越到超神学院世界，某一天突然“灵”光一闪。为了世界核平，人民幸福，总觉得该做点什么，于是乎:“传授国人无敌国术，围殴众多外星狗狼。”“双手施展灭妖神火，焚尽诸多
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡜𘡒𘡘𘡝𘡙𘡜</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="13">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1010705571" target="_blank" data-eid="qd_B57" data-bid="1010705571"><img src="//bookcover.yuewen.com/qdbimg/349573/1010705571/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1010705571" target="_blank" data-eid="qd_B58" data-bid="1010705571">主神调查员</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/400827907" target="_blank" data-eid="qd_B59">小仲牛</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>连载</span>
+
+                        <em>|</em><a class="name" href="//www.qidian.com/2cy" target="_blank">轻小说</a>
+
+                    </p>
+                    <p class="intro">
+                        这是个脑洞大开的爆笑故事，你将看到一个个与原作画风完全不同的剧情世界。我的名字叫罗锋，是一名主神调查员，日常工作是进入剧情世界，尽量扰乱剧情主线，收集数据与原剧情线做比对。我为什么要搅乱这些世界？当然
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡙𘡛𘡜𘡝𘡜</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="14">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1010293035" target="_blank" data-eid="qd_B57" data-bid="1010293035"><img src="//bookcover.yuewen.com/qdbimg/349573/1010293035/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1010293035" target="_blank" data-eid="qd_B58" data-bid="1010293035">穿梭时空的侠客</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/400168277" target="_blank" data-eid="qd_B59">牵牛喂大将军</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>连载</span>
+
+                        <em>|</em><a class="name" href="//www.qidian.com/2cy" target="_blank">轻小说</a>
+
+                    </p>
+                    <p class="intro">
+                        十步杀一人，千里不留行。事了拂衣去，深藏身与名......侠之大者，为国为民，侠之小者，锄奸扶弱。穿梭诸天万界，身份角色不停变换，沈炼的堂弟、刘正风的弟子、林动的表哥、悟空的同门、通天教主的徒弟...
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡙𘡚𘡛𘡝𘡔𘡛</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="15">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/3649762" target="_blank" data-eid="qd_B57" data-bid="3649762"><img src="//bookcover.yuewen.com/qdbimg/349573/3649762/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/3649762" target="_blank" data-eid="qd_B58" data-bid="3649762">末日轮盘</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/132164" target="_blank" data-eid="qd_B59">幻动</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="253" data-typeid="9">末世危机</a><em>|</em><span>连载</span>
+
+                    </p>
+                    <p class="intro">
+                        当生命停止的刹那，叶钟鸣回到了十年前，那个末日开始的下午。是上天对自己的眷顾？还是又一次的惩罚？真的要重新体验一次残酷冰冷的末世吗？叶钟鸣决定活下去，不为了别的，就为了那些曾经同生共死的战友，不离不弃
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡖𘡛𘡘𘡝𘡔𘡔</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="16">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1009908634" target="_blank" data-eid="qd_B57" data-bid="1009908634"><img src="//bookcover.yuewen.com/qdbimg/349573/1009908634/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1009908634" target="_blank" data-eid="qd_B58" data-bid="1009908634">末世之深渊召唤师</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/4746462" target="_blank" data-eid="qd_B59">凉心未暖</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="253" data-typeid="9">末世危机</a><em>|</em><span>连载</span>
+
+                    </p>
+                    <p class="intro">
+                        深渊。这是这片土地的名字。无限层面的无底深渊。这里是无穷无尽，令人窒息的恐怖之地。这里是环境极其恶劣，生命极其危险之地。深渊。致力于死亡和毁灭的恶魔家园，亦是，陈锋是否能够在这末日生存最大的保障。身处
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡙𘡚𘡗𘡝𘡗𘡘</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="17">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1010810478" target="_blank" data-eid="qd_B57" data-bid="1010810478"><img src="//bookcover.yuewen.com/qdbimg/349573/1010810478/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1010810478" target="_blank" data-eid="qd_B58" data-bid="1010810478">我的钢铁战衣</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/401289728" target="_blank" data-eid="qd_B59">钢铁战衣</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>连载</span>
+
+                        <em>|</em><a class="name" href="//www.qidian.com/2cy" target="_blank">轻小说</a>
+
+                    </p>
+                    <p class="intro">
+                        美国队长：“指挥官！咆哮突击队已就位！”钢铁侠：“你是我的教父？！”金刚狼：……黑夜传说、阿凡达、极乐空间、超验骇客……在一个个科幻电影的世界中穿梭，同时也悄悄地改变着现实世界一具漆黑的机甲缓缓地在平
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡚𘡔𘡕𘡝𘡙𘡙</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="18">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/2718601" target="_blank" data-eid="qd_B57" data-bid="2718601"><img src="//bookcover.yuewen.com/qdbimg/349573/2718601/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/2718601" target="_blank" data-eid="qd_B58" data-bid="2718601">进化的四十六亿重奏</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/2265405" target="_blank" data-eid="qd_B59">相位行者</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="252" data-typeid="9">进化变异</a><em>|</em><span>连载</span>
+
+                    </p>
+                    <p class="intro">
+                        从一颗星球的生命诞生之初起跑，将会见证无数文明的兴亡衰落，物种的诞生与灭亡，在数不尽的天灾地变之下，没有什么是永恒不变的，只有不停的改变自身，在逆境之中不停进化，才能成就完美的胜利。故事，将从一个小小
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡘𘡘𘡜𘡝𘡖𘡚</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="19">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1011449273" target="_blank" data-eid="qd_B57" data-bid="1011449273"><img src="//bookcover.yuewen.com/qdbimg/349573/1011449273/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1011449273" target="_blank" data-eid="qd_B58" data-bid="1011449273">学霸的黑科技系统</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/4166306" target="_blank" data-eid="qd_B59">晨星LL</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="250" data-typeid="9">超级科技</a><em>|</em><span>连载</span>
+
+                        <em>|</em><a class="name" href="//www.qidian.com/2cy" target="_blank">轻小说</a>
+
+                    </p>
+                    <p class="intro">
+                        “系统，积分能兑钱吗？”“不能。”“干，那我要你何用！”“本系统能让你当上学爸，全人类爸爸的爸，你还要钱有什么用？”——（起点书友群~学霸1群：414212892学霸v群：811131437（加群需验
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡜𘡒𘡒𘡝𘡚</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+                <li data-rid="20">
+                <div class="book-img-box">
+                    <a href="//book.qidian.com/info/1011109809" target="_blank" data-eid="qd_B57" data-bid="1011109809"><img src="//bookcover.yuewen.com/qdbimg/349573/1011109809/150"></a>
+                </div>
+                <div class="book-mid-info">
+                    <h4><a href="//book.qidian.com/info/1011109809" target="_blank" data-eid="qd_B58" data-bid="1011109809">无相进化</a></h4>
+                    <p class="author">
+                        <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png"><a class="name" href="//my.qidian.com/author/6624104" target="_blank" data-eid="qd_B59">宁悦岳</a><em>|</em><a href="//www.qidian.com/kehuan" target="_blank" data-eid="qd_B60">科幻</a><i>·</i><a class="go-sub-type" href="javascript:" data-eid="qd_B61" data-subtypeid="251" data-typeid="9">时空穿梭</a><em>|</em><span>连载</span>
+
+                    </p>
+                    <p class="intro">
+                        秦长风，一个男人，面白……心黑!被强行用十世平凡换取了一个成为强者的机会，进入最终试炼塔，开启了可以技能融合的无相天赋。从此：在飞刀，他是与李寻欢和阿飞相交莫逆的兄弟……美酒佳人，飞刀重箭，例无虚发！
+                    </p>
+                    <p class="update"><span><style>@font-face { font-family: UcXEeAYn; src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/UcXEeAYn.ttf') format('truetype'); } .UcXEeAYn { font-family: 'UcXEeAYn' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style><span class="UcXEeAYn">𘡙𘡜𘡗𘡝𘡔𘡘</span>万字</span>
+
+                    </p>
+                </div>
+                </li>
+
+            </ul>
+    </div>
+
+
+</div>

@@ -1,0 +1,38 @@
+
+{% extends 'cms/tablebase.html' %}
+{% block body %}
+      	<div class="panel-heading">
+
+            <h3 class="panel-title">成为作者</h3>
+
+        </div>
+
+    <div class="panel-body">
+
+       <form action=""method="post" enctype="multipart/form-data" >
+    {% csrf_token %}
+        <tr>
+            <td>性名</td>
+            <td> <input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>笔名</td>
+            <td> <input type="text" name="pen_name"></td>
+        </tr>
+       <tr>
+            <td>写作时长</td>
+            <td> <input type="text" name="days"></td>
+        </tr>
+        <tr>
+            <td>上传头像</td>
+            <td> <input type="file" name="logo"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>  <input type="submit" value="提交"></td>
+        </tr>
+    </form>
+    </div>
+
+    </div>
+ {% endblock %}

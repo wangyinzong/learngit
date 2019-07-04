@@ -1,0 +1,183 @@
+{% extends 'news/base.html' %}
+{% block title %}
+    {{ category }}
+{% endblock %}
+
+{% block content %}
+    <div style="align-content: center">
+    <div class="type-new fl"  data-l1="9">
+        <div class="left-wrap"><h3 class="lang">{{ category }}</h3>
+            <div id="new-book-list">
+                {% for books in books_all %}
+                 <div class="type-new-list cf" style="width: 100%" data-l2="1">
+                    <ul>
+                        {% for book in books %}
+                            <li data-rid="{{ forloop.counter }}">
+                            <div class="book-img"><a href="#" data-eid="qd_F23"
+                                                     data-bid="1015448658" target="_blank"><img
+                                    src="//bookcover.yuewen.com/qdbimg/349573/1015448658/90" alt="支配神话"></a></div>
+                            <div class="book-info"><h4><a href="//book.qidian.com/info/1015448658" data-eid="qd_F24"
+                                                          data-bid="1015448658" target="_blank">{{ book.0 }}</a></h4>
+                                <p>{{ book.1 }}</p>
+                                <div class="state-box cf"><span>日更{{ book.2 }}+</span><a class="author"
+                                                                                          href="//me.qidian.com/authorIndex.aspx?id=403495356"
+                                                                                          data-eid="qd_F25"
+                                                                                          target="_blank"><img
+                                        src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">{{ book.3 }}</a></div>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endfor %}
+
+                <div class="type-new-list cf" data-l2="1">
+                    <ul>
+                        <li data-rid="1">
+                            <div class="book-img"><a href="//book.qidian.com/info/1015448658" data-eid="qd_F23"
+                                                     data-bid="1015448658" target="_blank"><img
+                                    src="//bookcover.yuewen.com/qdbimg/349573/1015448658/90" alt="支配神话"></a></div>
+                            <div class="book-info"><h4><a href="//book.qidian.com/info/1015448658" data-eid="qd_F24"
+                                                          data-bid="1015448658" target="_blank">支配神话</a></h4>
+                                <p>往返于地球与异界的神灵故事</p>
+                                <div class="state-box cf"><span>日更3千+</span><i>异世大陆</i><a class="author"
+                                                                                          href="//me.qidian.com/authorIndex.aspx?id=403495356"
+                                                                                          data-eid="qd_F25"
+                                                                                          target="_blank"><img
+                                        src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">轻若君子</a></div>
+                            </div>
+                        </li>
+                        <li data-rid="2">
+                            <div class="book-img"><a href="//book.qidian.com/info/1015452242" data-eid="qd_F23"
+                                                     data-bid="1015452242" target="_blank"><img
+                                    src="//bookcover.yuewen.com/qdbimg/349573/1015452242/90" alt="我的妻子是女帝"></a></div>
+                            <div class="book-info"><h4><a href="//book.qidian.com/info/1015452242" data-eid="qd_F24"
+                                                          data-bid="1015452242" target="_blank">我的妻子是女帝</a></h4>
+                                <p>为什么我是入赘？</p>
+                                <div class="state-box cf"><span>日更2千+</span><i>东方玄幻</i><a class="author"
+                                                                                          href="//me.qidian.com/authorIndex.aspx?id=404401951"
+                                                                                          data-eid="qd_F25"
+                                                                                          target="_blank"><img
+                                        src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">下雨有灯</a></div>
+                            </div>
+                        </li>
+                        <li data-rid="3">
+                            <div class="book-img"><a href="//book.qidian.com/info/1015524457" data-eid="qd_F23"
+                                                     data-bid="1015524457" target="_blank"><img
+                                    src="//bookcover.yuewen.com/qdbimg/349573/1015524457/90" alt="生活系强者"></a></div>
+                            <div class="book-info"><h4><a href="//book.qidian.com/info/1015524457" data-eid="qd_F24"
+                                                          data-bid="1015524457" target="_blank">生活系强者</a></h4>
+                                <p>生活系外挂已与宿主绑定</p>
+                                <div class="state-box cf"><span>日更3千+</span><i>异世大陆</i><a class="author"
+                                                                                          href="//me.qidian.com/authorIndex.aspx?id=403880638"
+                                                                                          data-eid="qd_F25"
+                                                                                          target="_blank"><img
+                                        src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">平头熊猫</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="type-new-list cf" data-l2="1">
+                    <ul>
+                        <li data-rid="4">
+                            <div class="book-img"><a href="//book.qidian.com/info/1015223593" data-eid="qd_F23"
+                                                     data-bid="1015223593" target="_blank"><img
+                                    src="//bookcover.yuewen.com/qdbimg/349573/1015223593/90" alt="今天开始做馆主"></a></div>
+                            <div class="book-info"><h4><a href="//book.qidian.com/info/1015223593" data-eid="qd_F24"
+                                                          data-bid="1015223593" target="_blank">今天开始做馆主</a></h4>
+                                <p>入门便送一星基础武学卧虎势！</p>
+                                <div class="state-box cf"><span>日更3千+</span><i>高武世界</i><a class="author"
+                                                                                          href="//me.qidian.com/authorIndex.aspx?id=404100460"
+                                                                                          data-eid="qd_F25"
+                                                                                          target="_blank"><img
+                                        src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">棠李丶</a></div>
+                            </div>
+                        </li>
+                        <li data-rid="5">
+                            <div class="book-img"><a href="//book.qidian.com/info/1015310671" data-eid="qd_F23"
+                                                     data-bid="1015310671" target="_blank"><img
+                                    src="//bookcover.yuewen.com/qdbimg/349573/1015310671/90" alt="枪符"></a></div>
+                            <div class="book-info"><h4><a href="//book.qidian.com/info/1015310671" data-eid="qd_F24"
+                                                          data-bid="1015310671" target="_blank">枪符</a></h4>
+                                <p>元气为弹，射穿苍穹！</p>
+                                <div class="state-box cf"><span>日更3千+</span><i>异世大陆</i><a class="author"
+                                                                                          href="//me.qidian.com/authorIndex.aspx?id=400286197"
+                                                                                          data-eid="qd_F25"
+                                                                                          target="_blank"><img
+                                        src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">二哥的小号</a></div>
+                            </div>
+                        </li>
+                        <li data-rid="6">
+                            <div class="book-img"><a href="//book.qidian.com/info/1015540449" data-eid="qd_F23"
+                                                     data-bid="1015540449" target="_blank"><img
+                                    src="//bookcover.yuewen.com/qdbimg/349573/1015540449/90" alt="技能复制大师"></a></div>
+                            <div class="book-info"><h4><a href="//book.qidian.com/info/1015540449" data-eid="qd_F24"
+                                                          data-bid="1015540449" target="_blank">技能复制大师</a></h4>
+                                <p>脑中多了一个技能复制系统</p>
+                                <div class="state-box cf"><span>日更9千+</span><i>异世大陆</i><a class="author"
+                                                                                          href="//me.qidian.com/authorIndex.aspx?id=5242263"
+                                                                                          data-eid="qd_F25"
+                                                                                          target="_blank"><img
+                                        src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">六月剑北</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="type-new-list cf" data-l2="1">
+                    <ul>
+                        <li data-rid="7">
+                            <div class="book-img"><a href="//book.qidian.com/info/1015443725" data-eid="qd_F23"
+                                                     data-bid="1015443725" target="_blank"><img
+                                    src="//bookcover.yuewen.com/qdbimg/349573/1015443725/90" alt="异界小镇能升级"></a></div>
+                            <div class="book-info"><h4><a href="//book.qidian.com/info/1015443725" data-eid="qd_F24"
+                                                          data-bid="1015443725" target="_blank">异界小镇能升级</a></h4>
+                                <p>玫瑰小镇的代理镇长</p>
+                                <div class="state-box cf"><span>日更2千+</span><i>异世大陆</i><a class="author"
+                                                                                          href="//me.qidian.com/authorIndex.aspx?id=404125930"
+                                                                                          data-eid="qd_F25"
+                                                                                          target="_blank"><img
+                                        src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">酱油籽</a></div>
+                            </div>
+                        </li>
+                        <li data-rid="8">
+                            <div class="book-img"><a href="//book.qidian.com/info/1015552871" data-eid="qd_F23"
+                                                     data-bid="1015552871" target="_blank"><img
+                                    src="//bookcover.yuewen.com/qdbimg/349573/1015552871/90" alt="建构我的天外天"></a></div>
+                            <div class="book-info"><h4><a href="//book.qidian.com/info/1015552871" data-eid="qd_F24"
+                                                          data-bid="1015552871" target="_blank">建构我的天外天</a></h4>
+                                <p>这些奇怪的人跑来聚集在我的内世界干嘛</p>
+                                <div class="state-box cf"><span>日更3千+</span><i>异世大陆</i><a class="author"
+                                                                                          href="//me.qidian.com/authorIndex.aspx?id=401031894"
+                                                                                          data-eid="qd_F25"
+                                                                                          target="_blank"><img
+                                        src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">平刀</a></div>
+                            </div>
+                        </li>
+                        <li data-rid="9">
+                            <div class="book-img"><a href="//book.qidian.com/info/1015446108" data-eid="qd_F23"
+                                                     data-bid="1015446108" target="_blank"><img
+                                    src="//bookcover.yuewen.com/qdbimg/349573/1015446108/90" alt="重生之替身使者"></a></div>
+                            <div class="book-info"><h4><a href="//book.qidian.com/info/1015446108" data-eid="qd_F24"
+                                                          data-bid="1015446108" target="_blank">重生之替身使者</a></h4>
+                                <p>发现世界线发生了巨大的变动。</p>
+                                <div class="state-box cf"><span>日更4千+</span><i>异世大陆</i><a class="author"
+                                                                                          href="//me.qidian.com/authorIndex.aspx?id=402478017"
+                                                                                          data-eid="qd_F25"
+                                                                                          target="_blank"><img
+                                        src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">纸片宅</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div>
+    hellfffffffffffffffffffffffffffffffffffff
+    hellfffffffffffffffffffffffffffffffffffff
+    hellfffffffffffffffffffffffffffffffffffff
+    hellfffffffffffffffffffffffffffffffffffff
+    hellfffffffffffffffffffffffffffffffffffff
+    </div>
+{% endblock %}

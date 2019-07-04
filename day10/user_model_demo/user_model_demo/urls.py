@@ -1,7 +1,7 @@
-"""user_model_demo URL Configuration
+"""uer_model_demo1 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/2.1/topics/http/urls/
+    https://docs.djangoproject.com/en/2.0/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -16,9 +16,19 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from front import views
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.index,name='index'),
-    path('proxy/',views.proxys,name='proxy'),
-    path('one/',views.one_view,name='one'),
+    path('', views.index,name='index'),
+    # path('proxy/', views.proxys,name='proxy'),
+    path('one/', views.one_view,name='one'),
+    path('inherit/', views.inherit_view,name='inherit'),
+    path('login/', views.my_login,name='login'),
+    path('logout/', views.my_logout,name='logout'),
+    path('profile/',views.profiles,name='profile'),
+    path('add_permission/',views.add_permissions,name='add_permission'),
+    path('operate_permission/',views.operate_permission,name='operate_permission'),
+    path('add_article/',views.add_article,name='add_article'),
+
 ]

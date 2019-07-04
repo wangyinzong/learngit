@@ -1,0 +1,8 @@
+{#<from action="">#}
+{#    <input type="text" name="username" value="" placeholder="">#}
+{#    <input type="password" name="password">#}
+{#    <input type="submit" value="提交">#}
+{#</from>#}
+{% macro forms(name="",type="text",value="",placeholder="") %}
+    <input name="{{ name }}" type="{{ type }}" value="{{ value }}"  placeholder="{{ placeholder }}">
+{% endmacro %}

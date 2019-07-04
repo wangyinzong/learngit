@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<h2>{{username}}</h2>-->
+<!--<h2>{{age}}</h2>-->
+<!--<h2>{{country}}</h2>-->
+<ul>
+    {% for user in users %}
+    <li>{{user}}</li>
+    {% else %}}
+    <li>没有值</li>
+    {% endfor %}
+
+    <table>
+        <thead>
+        <tr>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            {% for val in person.values() %}
+            <td>{{val}}</td>
+            {% endfor %}
+        </tr>
+        </tbody>
+    </table>
+    <table border="1">
+        <tr>
+            <th>书号</th>
+            <th>书名</th>
+            <th>作者</th>
+            <th>价格</th>
+            <th>总数</th>
+        </tr>
+         {% for book in books %}
+            {% if loop.first %}
+            <tr style="background: pink">
+                {% elif loop.last %}
+                <tr style="background: aqua">
+                {% else %}
+                <tr>
+        {% endif %}
+            <td>{{loop.index}}</td>
+            <td>{{book.name}}</td>
+            <td>{{book.author}}</td>
+            <td>{{book.price}}</td>
+            <td>{{loop.length}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</ul>
+</body>
+</html>

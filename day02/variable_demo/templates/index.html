@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+{#{{person.username}}#}
+{#{{ username }}#}
+{#{% if age < 18 %}#}
+{#    <p>你好小，吃屎去吧</p>#}
+{#    {% elif age == 18 %}#}
+{#    <p>满18可以判刑了</p>#}
+{#    {% else %}#}
+{#<p>你哈20</p>#}
+{#{% endif %}#}
+{#{% if 'cxk' in heros %}#}
+{#    <p>律师函给你发过去了</p>#}
+{#    {% else %}#}
+{#    <p> 我们hi是朋友</p>#}
+{#{% endif %}#}
+{#{% for key,value in persons.items %}#}
+{#    <p>{{ key }}</p>#}
+{#    <p>{{ value }}</p>#}
+{##}
+{#{% endfor %}#}
+{#{% for person in persons reversed %}#}
+{#    {{ person }}#}
+{#{% endfor %}#}
+{#<table>#}
+{#    <thead>#}
+{#    <tr>#}
+{#        <th>序号</th>#}
+{#        <th>书名</th>#}
+{#        <th>价格</th>#}
+{#    </tr>#}
+{#    </thead>#}
+{#    <tbody>#}
+{#        {% for book in books %}#}
+{#            {% if forloop.first %}#}
+{#                <tr style="background: deeppink">#}
+{#                {% elif forloop.last %}#}
+{#                <tr style="background: green">#}
+{#                {% else %}#}
+{#                <tr>#}
+{#            {% endif %}#}
+{#        <td>{{ forloop.counter }}</td>#}
+{#        <td>{{ book.name }}</td>#}
+{#        <td>{{ book.author }}</td>#}
+{#        <td>{{ book.price }}</td>#}
+{#            </tr>#}
+{#        {% endfor %}#}
+{#    </tbody>#}
+{#</table>#}
+{#<ul>#}
+{#{% for comment in comments %}#}
+{#<li>#}
+{#{{ comment }}#}
+{#</li>#}
+{#    {% empty %}#}
+{#    <li>无评论</li>#}
+{#{% endfor %}#}
+{#</ul>#}
+{#{% with zs=persons.0 %}#}
+{#    <p>{{ zs }}</p>#}
+{#    <p>{{ zs }}</p>#}
+{#{% endwith %}#}
+{#{% with persons.1 as li %}#}
+{#<p>{{ li }}</p>#}
+{#    <p>{{ li }}</p>#}
+{#{% endwith %}#}
+{#{{ info }}#}
+</body>
+</html>

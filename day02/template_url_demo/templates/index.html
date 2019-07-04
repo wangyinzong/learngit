@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <style>
+    .nav{
+        overflow: hidden;
+    }
+        .nav li{
+            float:left;
+            list-style: none;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li>
+            <a href="/">首页</a>
+            <a href="{% url 'login' %}?next=222">登录</a>
+            <a href="{% url 'book' %}">读书</a>
+            <a href="{% url 'detail' book_id=1 category=4 %}">文章细节</a>
+            <a href="{% url 'movie' %}">电影</a>
+        </li>
+    </ul>
+</body>
+</html>

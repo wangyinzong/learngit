@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>书详细信息</title>
+</head>
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+<style>
+	body {
+        margin-top: 65px;
+
+    }
+
+    #btngroup button {
+        width: 100%;
+    }
+
+</style>
+<body>
+          	<div class="panel-heading">
+            <h3 class="panel-title">{{ books.title }}展示</h3>
+        </div>
+
+    <div class="panel-body">
+
+        <table class="table">
+    <thead>
+      <tr>
+          <th>书名</th>
+          <th>封面</th>
+          <th>浏览量</th>
+          <th>分类</th>
+          <th>简介</th>
+          <th>更新时间</th>
+          <th>字数</th>
+          <th>作者</th>
+
+    </tr>
+    </thead>
+    <tbody>
+          <tr>
+              <td>{{ books.title}}</td>
+              <td><img src="{{ MEDIA_URL }}{{ books.image }}" alt="" style="width:40px ;height: 60px "></td>
+               <td>{{ books.count }}</td>
+               <td>{{ books.category }}</td>
+               <td>{{ books.content }}</td>
+               <td>{{ books.update_time }}</td>
+               <td>{{ books.words}}</td>
+              <td><a href="{% url 'cms:author_detail'%}?author_id={{ author.id }}">{{ author.pen_name }}</a></td>
+                    {% if front_user %}
+                        {% if massage %}
+                  <td>{{ massage }}</td>
+                    {% else %}
+                   <td>
+                      <form action="{% url 'cms:collection_add' %}" method="post">
+                      {% csrf_token %}
+                    <input type="hidden" name="book_id" value="{{ books.id }}">
+                    <input type="submit" value="加入收藏">
+                    </form>
+                  </td>
+                   {% endif %}
+
+                    {% endif %}
+
+          </tr>
+          {% if front_user %}
+                <th><a href="{% url 'cms:add_article'%}?book_id={{ books.id }}">上传章节</a></th>
+          {% endif %}
+
+    </tbody>
+</table>
+
+    </div>
+
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

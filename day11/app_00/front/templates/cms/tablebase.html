@@ -1,0 +1,163 @@
+<span style="font-size:18px;"><!DOCTYPE html>
+
+<html lang="zh-cn">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>个人中心</title>
+
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+<style>
+	body {
+        margin-top: 65px;
+
+    }
+
+    .col-md-2 {
+
+        background-color: #ccc;
+
+        /*?*/
+
+        height: 600px;
+
+    }
+
+    #left-content {
+
+        margin-top: 20px;
+
+    }
+
+    .list-group {
+
+        padding-left: 0;
+
+    }
+
+    #panel-group {
+
+        margin-top: 20px;
+
+    }
+
+
+
+    #btngroup button {
+
+        width: 100%;
+
+    }
+
+
+</style>
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+
+    <!--container-fluid表示自适应大小，container表示居中-->
+
+	<div class="container">
+
+		<!--定义顶部导航栏-->
+
+		<div class="navbar-header">
+
+			<!--button是当屏幕小于多少时出现的可以打开导航列表的按钮-->
+			<button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse" data-target="#demo-navbar">
+				<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+
+			</button>
+            <p class="navbar-brand" style="color: white">信息管理中心</p>
+		</div>
+        <!--collapse用于导航栏折叠之后数据在button按钮里点击显示-->
+
+		<div class="collapse navbar-collapse" id="demo-navbar">
+
+			<!--nav navbar-nav表示显示在导航栏里-->
+
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="{% url 'news:index' %}">首页</a></li>
+                {% if front_user %}
+                    <p class="navbar-brand" style="color: white">欢迎来您，{{ front_user.username }}，来到信息管理页面</p>
+                {% else %}
+                    <li class="active"><a href="{% url 'news:loginregister' %}">您的登录时间过期，请点击重新登录登录</a></li>
+                {% endif %}
+			</ul>
+
+		</div>
+
+	</div>
+
+</nav>
+
+
+
+<div class="container-fluid">
+
+	<div class="row">
+
+		<div class="col-md-2">
+
+			<div class="text-center" id="left-content">
+
+				<div class="list-group">
+
+					<a href="{% url 'cms:my_news' %}" class="list-group-item active">个人中心首页</a>
+
+				</div>
+
+				<div class="list-group">
+
+                    <a href="{% url 'cms:my_table' %}" class="list-group-item">我的书架</a>
+					<a href="{% url 'cms:user_info' %}" class="list-group-item">个人信息</a>
+                    <a href="#" class="list-group-item">成为作者</a>
+                    {% if  front_user %}
+                        <a href="#" class="list-group-item">添加图书</a>
+                    {% endif %}
+
+				</div>
+
+				<div class="list-group">
+
+					<a href="#" class="list-group-item">设置</a>
+					<a href="#" class="list-group-item">帮助</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-10">
+  			<div id="panel-group">
+                <!-- 3 -->
+  				<div class="panel panel-primary">
+                    {% if front_user %}
+                        {% block body %}
+                        {% endblock %}
+                    {% else %}
+                        <a href="{% url 'news:loginregister' %}">您的登录时间过期，请点击重新登录登录</a>
+                    {% endif %}
+
+                    <!-- 4 -->
+  			    </div>
+		</div>
+		</div>
+
+	</div>
+
+</div>
+
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html></span>

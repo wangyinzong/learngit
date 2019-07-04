@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {# 加载 jquery 如果用bootstrap 省略该步骤#}
+    {{ moment.include_jquery() }}
+    {# 加载moment #}
+    {{ moment.include_moment() }}
+    {# 时间中文显示 #}
+    {{ moment.locale('zh-CN') }}
+    {{ moment().format('LLL') }}
+    {{ moment(current_time).fromNow() }}
+</body>
+</html>

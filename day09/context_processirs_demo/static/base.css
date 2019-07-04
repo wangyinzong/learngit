@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 30px;
+    width: 100%;
+}
+.ul1{
+    list-style: none;
+}
+.ul2{
+    list-style: none;
+}
+.ul1 li{
+    float: left;
+    margin: 0 20px;
+}
+.ul2 li{
+    float: right;
+    margin: 0 20px;
+}
